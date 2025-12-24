@@ -6,8 +6,7 @@ This project involves the end-to-end design, implementation, and security analys
 ## Phase 1: SMTP Protocol Analysis (Video Walkthrough)
 In this phase, I conducted a deep-packet inspection of the Simple Mail Transfer Protocol (SMTP). I analyzed the handshake process and identified critical security flaws regarding data exposure in cleartext.
 
-[![SMTP Protocol Analysis](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://youtu.be/PHX6I33nsko))
-*Click the image above to watch the technical analysis on YouTube.*
+* [▶️ Watch SMTP Protocol Analysis](https://youtu.be/PHX6I33nsko)
 
 ## Tools & Technologies
 * **Cisco Packet Tracer:** For logical topology design and network simulation.
@@ -30,7 +29,7 @@ To improve the security posture, I implemented **Virtual LANs (VLANs)** to segme
 *Comment: The completed Task 3 architecture in Cisco Packet Tracer. This diagram displays the full OSPF backbone and the segmented department LANs with assigned VLAN IDs.*
 
 ### Evidence 2: OSPF Routing Table Convergence
-![OSPF Routing Table](./evidence2_ospf.png)
+![OSPF Routing Table](./evidence2_ospf_table.png)
 *Comment: CLI output from a core router showing the OSPF routing table. The 'O' indicator confirms that routes were dynamically learned, ensuring high availability across the enterprise.*
 
 ### Evidence 3: Wireshark Packet Analysis (SMTP)
